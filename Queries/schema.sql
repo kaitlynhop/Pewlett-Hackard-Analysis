@@ -54,7 +54,7 @@ CREATE TABLE salaries (
 	--PRIMARY KEY (emp_no, title)
 --);
 
-DROP TABLE titles CASCADE;
+DROP TABLE titles;
 
 CREATE TABLE titles (
 	emp_no INT NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE titles (
 );
 
 SELECT * FROM dept_emp;
-DROP TABLE dept_emp CASCADE;
+DROP TABLE dept_emp;
 
 CREATE TABLE dept_emp (
 	emp_no INT NOT NULL,
